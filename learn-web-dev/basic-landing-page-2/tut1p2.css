@@ -1,0 +1,73 @@
+body {
+  background-color: #DDC3A5;
+  text-align: center;
+  margin: 50px;
+}
+header h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  margin: 0px -32px 20px 2px;
+}
+header p{
+  color: black; 
+  margin: 0px -32px -25px 2px;
+  display:inline-block;
+}
+#view-challenge {
+  color: whitesmoke;
+  background-color: #201E20;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  width: 300px;
+  margin: 0px -32px 20px 86px;
+}
+#view-challenge:hover{
+  background-color: rgb(97, 100, 102);
+}
+main ul {
+  list-style-type: none;
+  width: 500px;
+  margin: 36px auto 36px auto;
+}
+main ul li{
+    background-color: #E0A96D;
+    padding: 5px 0px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+main ul li:hover{
+  background-color: #a0794f;
+}
+.task-heading{
+  font-size: 30px;
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
+  margin:0px;
+}
+.task-description{
+ font-size:25px;
+ color: black;
+ margin:0px;
+}
+footer{
+  margin: 10px;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 40px 20px 42px;
+}
+footer ul li a {
+  color: whitesmoke;
+  background-color: #201E20;
+  font-size:20px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+footer ul li a:hover{
+  background-color: rgb(97, 100, 102);
+}
